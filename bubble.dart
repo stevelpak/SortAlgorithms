@@ -1,6 +1,6 @@
 void main(List<String> args) {
   Bubble bubble = Bubble();
-  print(bubble.sort(['s', 'b', 'a']));
+  print(bubble.sort([1, 5, 9, 8, 1, 2, 10, 3]));
 }
 
 class Bubble {
