@@ -11,7 +11,7 @@ void main(List<String> args) {
 class DutchFlag with SortUtils implements SortAlgorithm {
   @override
   sort<T extends Comparable<T>>(List<T> unsorted) {
-    return flagSort(unsorted, unsorted[(unsorted.length / 2.0).floor()]);
+    return flagSort(unsorted, unsorted[(unsorted.length / 2).floor()]);
   }
 
   sort2<T extends Comparable<T>>(List<T> array, T intendedMiddle) {
